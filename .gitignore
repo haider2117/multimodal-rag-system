@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and caches
+temp/
+embeddings/
+models_cache/
+data/pdfs/*.pdf
+
+# OS
+Thumbs.db
+.DS_Store

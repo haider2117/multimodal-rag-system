@@ -1,0 +1,11 @@
+sentence-transformers
+transformers
+torch
+faiss-cpu
+gradio
+pytesseract
+pdf2image
+PyMuPDF
+Pillow
+numpy
+scikit-learn
