@@ -6,7 +6,7 @@ so you can upload it to GitHub as an AI/ML project for your resume.
 
 Contents in this repository (cleaned):
 
-- `GEN_Q1.ipynb` — Main Jupyter notebook (analysis, extraction, embeddings,
+- `multimodal-rag-training.ipynb` — Main Jupyter notebook (analysis, extraction, embeddings,
 	retrieval, and Gradio demo).
 - `data/pdfs/` — Place your PDF dataset here (currently contains 3 PDFs).
 - `src/build_index.py` — Helper script to extract text chunks and save them
@@ -26,7 +26,7 @@ Project structure (final):
 
 ```
 reg/                     # repo root
-├── GEN_Q1.ipynb
+├── multimodal-rag-training.ipynb
 ├── data/
 │   └── pdfs/            
 ├── src/
@@ -49,7 +49,7 @@ python -m pip install -r requirements.txt
 python src\build_index.py
 
 # start Jupyter and open the notebook
-jupyter notebook GEN_Q1.ipynb
+jupyter notebook multimodal-rag-training.ipynb
 ```
 
 Windows-specific notes
@@ -83,7 +83,7 @@ Tips for a good GitHub project / resume entry
 	your main results (we included run commands above).
 
 If you want, I can now:
-- Patch `GEN_Q1.ipynb` to remove the Colab upload cell and use the local
+- Patch `multimodal-rag-training.ipynb` to remove the Colab upload cell and use the local
 	`data/pdfs/` loader automatically, and add the Tesseract/poppler hints inline.
 - Create a `README` screenshot and short description tailored for your resume.
 
@@ -92,6 +92,6 @@ Which would you like me to do next?
 
 ## **Demo (Notebook)**
 
-- The interactive notebook was moved into `notebooks/GEN_Q1.ipynb`.
+- The interactive notebook was moved into `notebooks/multimodal-rag-training.ipynb`.
 
 If you want an HTML snapshot or screenshots for the README, generate them locally and add them to the repo; they were intentionally not included here.
